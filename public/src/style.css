@@ -1,0 +1,47 @@
+.app{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    gap:10px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: aqua;
+}
+
+.form{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formButton{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    background-color: aquamarine;
+    color: blue;
+}
